@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#borderimg1 {
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(images/border.png) 30 round;
+}
+
+#borderimg2 {
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(images/border.png) 30% round;
+}
+
+#borderimg3 {
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(images/border.png) 50 round;
+}
+
+#borderimg4 {
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(images/border.png) 30% stretch;
+}
+
+#borderimg5 {
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(images/border.png) 30 stretch;
+}
